@@ -24,7 +24,7 @@ public class SubscriptionImpl implements Subscription {
             estaCancelada = true;
             return;
         }
-        System.out.println("subscriber solicito " + cantidadSolicitada + "items");
+        System.out.println("subscriber solicito " + cantidadSolicitada + " items");
         for (int i = 0; i < cantidadSolicitada && i < CANTIDAD_MAXIMA; i++) {
             count++;
             try {

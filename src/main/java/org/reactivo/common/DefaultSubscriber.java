@@ -4,6 +4,8 @@ import lombok.Getter;
 import lombok.RequiredArgsConstructor;
 import org.reactivestreams.Subscriber;
 import org.reactivestreams.Subscription;
+import org.slf4j.Logger;
+import org.slf4j.LoggerFactory;
 
 
 @Getter
@@ -12,7 +14,7 @@ public class DefaultSubscriber<T> implements Subscriber<T> {
 
     private Subscription subscription;
     private final String name;
-
+    private static final Logger log = LoggerFactory.getLogger(DefaultSubscriber.class);
     @Override
     public void onSubscribe(Subscription subscription) {
         subscription.request(Long.MAX_VALUE);
@@ -20,16 +22,16 @@ public class DefaultSubscriber<T> implements Subscriber<T> {
 
     @Override
     public void onNext(T item) {
-        System.out.println(name + " recibio: " + item);
+        log.info(name + " recibio: " + item);
     }
 
     @Override
     public void onError(Throwable throwable) {
-        System.out.println(name + ": Error: " + throwable);
+        log.error(name + ": Error: " + throwable);
     }
 
     @Override
     public void onComplete() {
-        System.out.println(name + ": Finalizado");
+        //log.info(name + ": Finalizado");
     }
 }
