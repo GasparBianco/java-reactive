@@ -17,8 +17,7 @@ public class Leccion08ComunicacionNoBloqueante {
         for (int i = 1; i < 100; i++) {
             //cliente.getProductName(i)
               //      .subscribe(Utils.subscriber());
-            String producto = cliente.getProductName(i).block();
-            log.info(producto);
+            log.info(cliente.getProductName(i).block());
         }
         Utils.awaitSeconds(2);
     }
