@@ -9,7 +9,7 @@ import java.nio.file.Path;
 public class FileServiceImpl {
 
     private static final String basePath = "";
-    public static Mono<String> read(String nombreArchivo) throws IOException {
+    public static Mono<String> read(String nombreArchivo){
         return Mono.fromCallable(() -> Files.readString(Path.of(basePath + nombreArchivo))
         );
     }
