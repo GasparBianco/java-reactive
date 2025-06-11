@@ -5,6 +5,9 @@ import org.reactivestreams.Subscriber;
 import reactor.core.publisher.Mono;
 
 public class Utils {
+
+    // Comando para levantar el server de pruebas java -jar external-services.jar
+
     public static final Faker faker = Faker.instance();
 
     public static <T> Subscriber<T> subscriber(){
