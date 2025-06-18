@@ -11,8 +11,8 @@ public class TareaClase02 {
     private static final Logger log = LoggerFactory.getLogger(TareaClase02.class);
 
     public static void main(String[] args){
-        //FileServiceImpl.write("prueba.txt", "Hello world").subscribe(Utils.subscriber("Escritor"));
+        FileServiceImpl.write("prueba.txt", "Hello world").subscribe(Utils.subscriber("Escritor"));
         //FileServiceImpl.read("prueba.txt").subscribe(Utils.subscriber("Lector"));
-        FileServiceImpl.eliminarArchivo("prueba.txt").subscribe(Utils.subscriber("Aniquilador"));
+        //FileServiceImpl.eliminarArchivo("prueba.txt").subscribe(Utils.subscriber("Aniquilador"));
     }
 }
