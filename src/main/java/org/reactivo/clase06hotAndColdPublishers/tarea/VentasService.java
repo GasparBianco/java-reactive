@@ -1,8 +1,8 @@
-package org.reactivo.clase05hotAndColdPublishers.tarea;
+package org.reactivo.clase06hotAndColdPublishers.tarea;
 
 import org.reactivestreams.Subscriber;
 import org.reactivestreams.Subscription;
-import org.reactivo.clase05hotAndColdPublishers.tarea.cliente.Item;
+import org.reactivo.clase06hotAndColdPublishers.tarea.cliente.Item;
 import org.slf4j.Logger;
 import org.slf4j.LoggerFactory;
 

@@ -1,6 +1,5 @@
-package org.reactivo.clase04operators.cliente;
+package org.reactivo.clase05operators.cliente;
 
-import org.reactivestreams.Publisher;
 import org.reactivo.common.AbstractHttpClient;
 import reactor.core.publisher.Flux;
 

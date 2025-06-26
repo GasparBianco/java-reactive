@@ -1,4 +1,4 @@
-package org.reactivo.clase05hotAndColdPublishers.tarea.cliente;
+package org.reactivo.clase06hotAndColdPublishers.tarea.cliente;
 
 import lombok.Getter;
 

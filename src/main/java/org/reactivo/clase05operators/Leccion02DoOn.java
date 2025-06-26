@@ -1,4 +1,4 @@
-package org.reactivo.clase04operators;
+package org.reactivo.clase05operators;
 
 import org.reactivo.common.Utils;
 import org.slf4j.Logger;

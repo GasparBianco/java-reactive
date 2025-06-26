@@ -1,4 +1,4 @@
-package org.reactivo.clase05hotAndColdPublishers;
+package org.reactivo.clase06hotAndColdPublishers;
 
 import org.reactivo.common.Utils;
 import org.slf4j.Logger;

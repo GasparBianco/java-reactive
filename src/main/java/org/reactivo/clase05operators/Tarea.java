@@ -1,6 +1,6 @@
-package org.reactivo.clase04operators;
+package org.reactivo.clase05operators;
 
-import org.reactivo.clase04operators.cliente.ExternalServerCliente;
+import org.reactivo.clase05operators.cliente.ExternalServerCliente;
 import org.reactivo.common.Utils;
 
 public class Tarea {

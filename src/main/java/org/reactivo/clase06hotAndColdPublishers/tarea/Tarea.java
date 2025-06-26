@@ -1,6 +1,6 @@
-package org.reactivo.clase05hotAndColdPublishers.tarea;
+package org.reactivo.clase06hotAndColdPublishers.tarea;
 
-import org.reactivo.clase05hotAndColdPublishers.tarea.cliente.ExternalServerCliente;
+import org.reactivo.clase06hotAndColdPublishers.tarea.cliente.ExternalServerCliente;
 import org.reactivo.common.Utils;
 import org.slf4j.Logger;
 import org.slf4j.LoggerFactory;
