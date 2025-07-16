@@ -1,4 +1,4 @@
-package org.reactivo.clase10;
+package org.reactivo.clase10Buffer;
 
 import lombok.extern.slf4j.Slf4j;
 import org.reactivestreams.Subscriber;

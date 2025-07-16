@@ -1,4 +1,4 @@
-package org.reactivo.clase09.cliente;
+package org.reactivo.clase09CombiningPublishers.cliente;
 
 public record Order(Integer userId,
                     String productName,

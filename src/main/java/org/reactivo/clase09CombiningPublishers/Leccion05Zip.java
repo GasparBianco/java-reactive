@@ -1,6 +1,6 @@
-package org.reactivo.clase09;
+package org.reactivo.clase09CombiningPublishers;
 
-import org.reactivo.clase09.cliente.ExternalServerCliente;
+import org.reactivo.clase09CombiningPublishers.cliente.ExternalServerCliente;
 import org.reactivo.common.Utils;
 import reactor.core.publisher.Flux;
 

@@ -1,4 +1,4 @@
-package org.reactivo.clase09.cliente;
+package org.reactivo.clase09CombiningPublishers.cliente;
 
 import org.reactivo.common.Utils;
 import reactor.core.publisher.Flux;

@@ -1,10 +1,8 @@
-package org.reactivo.clase09;
+package org.reactivo.clase09CombiningPublishers;
 
 import lombok.extern.slf4j.Slf4j;
 import org.reactivo.common.Utils;
-import reactor.core.publisher.Flux;
 
-import java.time.Duration;
 import java.util.ArrayList;
 import java.util.List;
 

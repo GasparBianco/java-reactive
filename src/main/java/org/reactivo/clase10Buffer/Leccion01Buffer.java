@@ -1,4 +1,4 @@
-package org.reactivo.clase10;
+package org.reactivo.clase10Buffer;
 
 import org.reactivo.common.Utils;
 import reactor.core.publisher.Flux;

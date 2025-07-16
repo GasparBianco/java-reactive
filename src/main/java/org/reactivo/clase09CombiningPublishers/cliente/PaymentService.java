@@ -1,4 +1,4 @@
-package org.reactivo.clase09.cliente;
+package org.reactivo.clase09CombiningPublishers.cliente;
 
 import reactor.core.publisher.Mono;
 

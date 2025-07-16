@@ -1,13 +1,10 @@
-package org.reactivo.clase10;
+package org.reactivo.clase10Buffer;
 
 import lombok.extern.slf4j.Slf4j;
-import org.reactivestreams.Subscriber;
-import org.reactivestreams.Subscription;
 import org.reactivo.common.Utils;
 import reactor.core.publisher.Flux;
 
 import java.time.Duration;
-import java.util.HashMap;
 
 @Slf4j
 public class Leccion02TareaBuffer {

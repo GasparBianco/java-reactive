@@ -1,11 +1,7 @@
-package org.reactivo.clase09;
+package org.reactivo.clase09CombiningPublishers;
 
 import lombok.extern.slf4j.Slf4j;
-import org.reactivo.common.Utils;
 import reactor.core.publisher.Flux;
-import reactor.core.scheduler.Schedulers;
-
-import java.time.Duration;
 
 @Slf4j
 public class Leccion01StartWith {

@@ -1,9 +1,7 @@
-package org.reactivo.clase09.cliente;
+package org.reactivo.clase09CombiningPublishers.cliente;
 
 import org.reactivo.common.AbstractHttpClient;
 import reactor.core.publisher.Flux;
-
-import java.util.Objects;
 
 public class ExternalServerCliente extends AbstractHttpClient {
 

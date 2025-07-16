@@ -1,9 +1,8 @@
-package org.reactivo.clase09;
+package org.reactivo.clase09CombiningPublishers;
 
 import lombok.extern.slf4j.Slf4j;
-import org.reactivo.clase09.cliente.*;
+import org.reactivo.clase09CombiningPublishers.cliente.*;
 import org.reactivo.common.Utils;
-import reactor.core.publisher.Flux;
 import reactor.core.publisher.Mono;
 
 import java.util.List;
